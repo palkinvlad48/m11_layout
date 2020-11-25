@@ -1,0 +1,131 @@
+.footer {
+  width: 100%;
+  display: flex;
+  padding: 40px 30px 60px 50px;/* 40px 50px;*/
+  justify-content: space-between;
+  background-color: black;
+  color: #cacaca; /*var(--color-gray);*/
+}
+.footer-logo {
+  height: 90px;
+  width: 230px;
+}
+.footer-menu {
+  width: 30%;
+  padding-top: 0px;
+  padding-left: 30px;
+}
+.menu-list {
+  padding-bottom: 100px;
+}
+.link-item {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.footer-form {
+  width: 50%;
+  min-width: 600px;
+  display: flex;
+  padding-top: 30px;
+  padding-right: 100px;
+  flex-direction: column;
+}
+.footer-input,
+.footer-message {
+  padding-left: 20px;
+  margin-bottom: 21px;
+  font-size: 18px;
+  background-color: #3f3f3f;
+  border: none;
+}
+.footer-input {
+  height: 60px;/*
+  color: rgb(188,191,183);*/
+}
+.footer-message {
+  height: 150px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #bfbfbf;/*rgb(188,191,183);*/ 
+}
+.footer-btn-body {
+  display: inline;
+}
+.btn-send {
+  padding: 25px 50px;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn-send:focus,
+.btn-send:hover {
+  opacity: .6;
+}
+.footer-checkbox {
+  background-color: black;
+}
+.footer-text {
+  width: 30%;
+}
+.text-footer {
+  width: 80%;
+  padding-top: 70px;
+  padding-left: 40px;
+  padding-right: 0px;
+}
+.social-list {
+  display: flex;
+  flex-direction: row;
+} 
+.social-item:not(:last-child) {
+  margin-right: 30px;
+}  
+.social-link {
+  display: block;
+  width: 60px;
+  height: 60px; 
+  background: right/cover no-repeat;
+  opacity: 1.0;
+  cursor: pointer;
+}
+.social-link:hover,
+.social-link:focus {
+  opacity: 0.5;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.facebook {
+  background-image: url('../svg/fb.svg')
+}
+.vk {
+  background-image: url('../svg/vk.svg')
+}
+.instagram {
+  background-image: url('../svg/instagram.svg')
+}
+.form-bid {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+.section-title {
+  line-height: 40px;
+}
+.footer-input::-moz-placeholder {
+  color: #bfbfbf;
+}
+.footer-input::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+.footer-input:-ms-input-placeholder {
+  color: #bfbfbf;
+}
+.footer-input::-ms-input-placeholder {
+  color: #bfbfbf;
+}
+.footer-input::placeholder {
+  color: #bfbfbf;
+}
+

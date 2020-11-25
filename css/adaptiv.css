@@ -1,0 +1,21 @@
+.header__menu-mobile {
+  display: none;
+}
+
+.header__tel-mobile {
+  display: none;
+}
+
+.mobile-title-body {
+  display: none;
+}
+
+.fon-mobile {
+  display: none;
+}
+
+@media (max-width: 1450px) {
+
+  .services {
+  padding-top: 150px;/**/
+}

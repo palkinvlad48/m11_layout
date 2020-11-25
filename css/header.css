@@ -1,0 +1,86 @@
+.header {
+  padding-top: 50px;
+}
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 90px;
+  width: 230px;
+}
+.nav-list {
+  display: inline-flex;
+  flex-direction: row;
+}
+.nav-list-item {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 90px;
+}
+.icon-search {
+  width: 25px;
+  height: 26px;
+  background-image: url('../svg/search.svg');
+  background-color: white;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 25px 26px;
+  border: none;
+  cursor: pointer;
+}
+.icon-search:hover,
+.icon-search:focus {
+  background-image: url('../svg/search_beige.svg');
+}
+.header__body-mobile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;/**/
+}
+.btn-burger {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  
+}
+.btn-burger::hover > rect {
+  fill: orange;
+}
+/*  Var div 
+.burger-list {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  cursor: pointer;
+}
+.burger-line {
+  width: 30px;
+  height: 3px;
+  margin-bottom: 6px;
+  background-color: #333;
+}
+.burger-line:last-child {
+  margin-bottom: 0;
+}
+.btn-burger:focus * div {
+  background-color: orange;
+}
+.burger-list:hover > div {
+  background-color: orange;
+}
+.burger-list:hover > .burger-line:nth-child(2) {
+  width: 20px;
+  margin-left: 10px;
+}
+.burger-list:hover > .burger-line:last-child {
+  width: 10px;
+  margin-left: 20px;
+}
+/**/
