@@ -1,8 +1,15 @@
 .header {
-  padding-top: 50px;
+  position: relative;
+  width: 1920px;
+  height: 100px;
+  left: 0;
+  top: 0;
+  background: #fff;
+  box-shadow: 0px 5px 40px rgba(0,0,0,0,0.1);
 }
 .header__body {
   display: flex;
+  padding-top: 0px;
   align-items: center;
   justify-content: space-between;
 }
@@ -18,6 +25,10 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
+}
+.nav-list-item a:hover {
+  border-bottom: 2px solid orange;
+  color: #000;
 }
 .nav-list-item:not(:last-child) {
   margin-right: 90px;
@@ -37,23 +48,27 @@
 .icon-search:focus {
   background-image: url('../svg/search_beige.svg');
 }
-.header__body-mobile {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;/**/
-}
 .btn-burger {
-  width: 40px;
+  width: 30px;
   height: 30px;
+  background-image: url('../svg/burger.svg');
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
   cursor: pointer;
-  background: none;
   border: none;
-  
 }
-.btn-burger::hover > rect {
-  fill: orange;
+/* no
+.btn-burger svg path {
+    stroke: inherit;
+    stroke-width: inherit;
+    fill: inherit;
+}*/
+.btn-burger:hover {
+  background-image: url('../svg/burger_active.svg');
 }
-/*  Var div 
+/*  Var old for div 
 .burger-list {
   display: flex;
   flex-direction: column;

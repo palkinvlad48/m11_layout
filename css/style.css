@@ -68,7 +68,7 @@ html {
 body {
   min-width: 320px; /* минимальная ширина страницы под смартфон */
   margin: 0;
-/*
+
   background-color: #f2f2f2;  /*под проект*/
   font-family: Montserrat, Arial, sans-serif;  /* 1-й - свой шрифт под проект, 
   затем запасные системные */

@@ -88,11 +88,11 @@
     width: 150px; /* mobile 320: 97px;31px;*/
     height: 48px; 
   }
-  .icon-search {/*
+  /*
+  .icon-search {
     height: 70px;
-    background-position: 0px 30px;/* ??? */
-  }
-
+    background-position: 0px 30px;
+  }/* ??? */
 }
 @media (max-width: 1024px) {
   .container {
